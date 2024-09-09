@@ -1,0 +1,22 @@
+
+
+h1, p{
+  margin:1em auto;
+ 
+}
+ 
+
+label{
+display: block;
+margin: 1rem 3;
+}
+
+select{
+  margin:10px;
+  width:100%;
+}
+textarea{
+  width:100%;
+  margin: 10px;
+  border: 1px solid #0a0a23;
+}
