@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+<h1 id="title">Results of Covid Vaccine</h1>
+</head>
+<body>
+  <p  id="description">
+    Filling out this form correctly with the required information will help us to know the effects of Covid Vaccine
+  </p>
+<form id="survey-form">
+<label id="name-label" ="name">Enter your names:<input id="name" type="text" placeholder="first and last name"required/></label>
+<label id="email-label">Enter Your Email:<input id="email" placeholder="Enter your email" type="email" required/></label>
+<label id="number-label">Enter Your number<input id="number" type="number" placeholder="Select your age" min="18" max="100"required/></label>
+<h4>Choose the signs and symptoms you experienced after contracting COVID-19.vaccine</h4>
+<select id="dropdown">
+  <h4>Choose the signs and symptoms you experienced after contracting COVID-19.vaccine</h4>
+  <option value="">Select all that applies</option>
+  <option value="1">Headache</option>
+  <option value="2">Fever or Chill</option>
+  <option value="3">Pain or Swelling at the Injection Site</option>
+  <option value="4">Fatigue</option>
+  <option value="5">Muscle or Joint Pain</option>
+  <option value="6">Nausea</option>
+</select>
+<legend>More Info(required) Select for the time you experienced those effect and check all boxes for the month in year you experinced them</legend>
+    <label for="long-term">Long term effect<input id="long-term" value="radio" type="radio" name="radio"/></label>
+    <label for="short-term">Short term effect<input id="short-term" type="radio" value="radio" name="radio"/></label>
+ <label for="date"> April<input value="checkbox" id="date" type="checkbox"/></label>
+<label > May<input value="checkbox" id="date"   type="checkbox"/></label>
+<label > July<input value="unchecked" id="date" value="checkbox"type="checkbox"/></label>
+ <label for="date"> August<input value="checkbox" id="date" type="checkbox"/></label>
+<label for="date" > September<input value="checkbox" id="date" type="checkbox"/></label>
+<label for="date" > Octobre<input id="date" value ="checkbox"type="checkbox"/></label>
+<label for="date" > November<input value="checkbox" id="date" type="checkbox"/></label>
+<textarea placeholder="Additional comments"></textarea>
+<label for="submit">Submit<input id="submit" type="submit"/></label>
+</form>
+</body>
+</html>
